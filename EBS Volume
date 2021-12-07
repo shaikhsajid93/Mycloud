@@ -13,25 +13,26 @@ EBS volumes
 > Take control
 
 > Check whether volume is attached
-# lsblk
+# sudo lsblk
 
 > Chek if there is any data on volume
-# file -s /dev/xvdf
+# sudo file -s /dev/xvdf
+> if it show data means it is row disc then formate it
 
-> Create a file system for volume
-# mkfs -t ext4 /dev/xvdf
+> Create a file system for volume (cmd for formate disk)
+# sudo mkfs -t ext4 /dev/xvdf
 
-# mkdir /fileserver 
+# sudo mkdir /fileserver 
 
 > Mount HDD
-# mount /dev/xvdf /fileserver
+# sudo mount /dev/xvdf /fileserver
 
 # cd /fileserver
 
 > Create some files using nano
 
-> Unmount the volume 
-# umount /dev/xvdf
+> If you want to Unmount the volume 
+# sudo umount /dev/xvdf
 
 > Check whether volume is unmounted or not
 # cd /fileserver
