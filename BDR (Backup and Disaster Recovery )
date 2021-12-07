@@ -1,0 +1,33 @@
+******************************
+* Backup and Disaster Recovery
+******************************
+
+* Recover data from snapshot
+
+* Select snapshot 
+
+* select action tab
+
+* Creat volume from snapshot
+
+* Attach it to a EC2 instance
+
+* Connect to the EC2 instance
+
+* Take control
+
+* Check whether volume is attached
+# sudo lsblk
+
+* Chek if there is any data on volume
+# sudo file -s /dev/xvdf
+
+* Mount HDD
+# sudo mount /dev/xvdf /fileserver
+
+# cd /fileserver
+
+* Check whether your backup done or not
+# ls
+
+
