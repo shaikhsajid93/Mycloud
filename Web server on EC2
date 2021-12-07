@@ -1,0 +1,45 @@
+************************
+Installing web server on EC2
+************************
+
+*  Start an EC2 instance
+
+* In security group select ssh and http
+
+* Connect to server
+
+* Take control
+
+* Update the server
+# sudo apt-get update
+
+* Install apache web server
+# sudo apt-get install apache2
+
+* Verify whether service started or not
+# sudo service apache2 status
+* If service not stated then start it
+# sudo service apache2 start
+
+* Go to browser and enter the public IP
+* you get Apache2 Ubuntu Default Page
+
+* If you want to change that page
+* Switch to root user
+# sudo su
+
+* Change directory to /var/www/html
+# cd /var/www/html
+
+* Edit index.html
+# nano index.html
+* write script or text that you want to be as a default page.
+
+* exit from root
+# exit
+
+* Go to browser and enter the public IP
+* you get your edited default page.
+
+
+
