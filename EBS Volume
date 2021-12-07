@@ -3,6 +3,8 @@ EBS volumes
 ***********
 
 > Create a volume
+> Select availability zone as same as server zone
+> Select type of storage
 
 > Attach it to a EC2 instance
 
@@ -19,8 +21,9 @@ EBS volumes
 > Create a file system for volume
 # mkfs -t ext4 /dev/xvdf
 
-# mkdir /fileserver
- 
+# mkdir /fileserver 
+
+> Mount HDD
 # mount /dev/xvdf /fileserver
 
 # cd /fileserver
