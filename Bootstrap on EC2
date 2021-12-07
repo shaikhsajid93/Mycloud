@@ -1,0 +1,13 @@
+*  Start an EC2 instance
+
+* In step 3 configure instance
+* In advanced details 
+* Select user data then pest your script or cmd that you want to be run at time of installing
+
+* Script for getting default page of web servar
+
+#!/bin/bash
+sudo su
+apt-get update -y
+apt install apache2 -y
+service apache2 start
