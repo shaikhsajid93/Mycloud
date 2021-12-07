@@ -1,0 +1,16 @@
+*********************
+* aws snapshots
+*********************
+
+* It is point in time backup ( incremental backup )
+
+* Select servar or volume
+
+* select snapshot tap 
+
+* create snapshot 
+
+* select server or volume 
+
+* Snapshot of selected server or volume created
+
